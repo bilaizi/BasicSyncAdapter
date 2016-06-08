@@ -69,7 +69,8 @@ class SyncAdapter extends AbstractThreadedSyncAdapter {
             FeedContract.Entry.COLUMN_NAME_ENTRY_ID,
             FeedContract.Entry.COLUMN_NAME_TITLE,
             FeedContract.Entry.COLUMN_NAME_LINK,
-            FeedContract.Entry.COLUMN_NAME_PUBLISHED};
+            FeedContract.Entry.COLUMN_NAME_PUBLISHED
+    };
     // Constants representing column positions from PROJECTION.
     public static final int COLUMN_ID = 0;
     public static final int COLUMN_ENTRY_ID = 1;
